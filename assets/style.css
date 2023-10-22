@@ -1,0 +1,79 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff4500; /* Laranja */
+}
+
+/* Foto de perfil */
+.foto1 {
+    max-width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo de links internos */
+a[href^="#"] {
+    color: #0077b6; /* Azul */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a[href^="#"]:hover {
+    color: #ff4500; /* Laranja */
+}
+
+/* Estilo para seções individuais */
+#sobre-mim {
+    background-color: #edf6e5; /* Verde claro */
+}
+
+#formacao {
+    background-color: #ffeda3; /* Amarelo claro */
+}
+
+#portfolio {
+    background-color: #ffb6b9; /* Rosa claro */
+}
+
+#contato {
+    background-color: #aed9e0; /* Azul claro */
+}
+
